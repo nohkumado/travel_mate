@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE travel PUBLIC "-//LUG//DTD travel//FR" "/~bboett/dtds/travel.dtd">
+<travelhelper>
+<acls>
+<acl name="public" access="any"/>
+<acl name="restricted" access="registered"/>
+<acl name="protected" access="samegroup"/>
+<acl name="private" access="user"/>
+</acls>
+<persons>
+<person>
+<entry type="name" value="Bob Morane" acl="public"/>
+<entry type="nick" value="bmorane" acl="public"/>
+<entry type="mail" value="bob.morane@adventure.net" acl="protected"/>
+<entry type="adress" value="1 Quai des Brumes, Marseille, France" acl="protected"/>
+<entry type="phone" value="+33 491 00 11 22" acl="private"/>
+<entry type="mobile" value="+33 601 02 03 04" acl="private"/>
+<entry type="passport" value="http://fictional.org/scans/passBob.jpg" acl="private"/>
+<entry type="driverlicence" value="http://fictional.org/scans/licenceBob.jpg" acl="private"/>
+</person>
+<person>
+<entry type="name" value="Sophie Paramount" acl="public"/>
+<entry type="nick" value="sophie_p" acl="public"/>
+<entry type="mail" value="sophie.paramount@explorer.com" acl="protected"/>
+<entry type="adress" value="7 Avenue de l'Aventure, Paris, France" acl="protected"/>
+<entry type="phone" value="+33 145 67 89 01" acl="private"/>
+<entry type="mobile" value="+33 611 22 33 44" acl="private"/>
+<entry type="passport" value="http://fictional.net/scans/passSophie.jpg" acl="private"/>
+<entry type="driverlicence" value="http://fictional.net/scans/licenceSophie.jpg" acl="private"/>
+</person>
+</persons>
+<travels>
+<travel
+auteur = "bmorane"
+name = "japon2007"
+maj = "2007-01-07"
+id = "trav2007"
+acl = "public"
+fromDate = "2004-09-11"
+toDate = "2004-11-29"
+>
+<titre>Japon septembre 2004</titre>
+
+Du 11 septembre 2004 au 29 septembre 2004
+Japon
+<etappe name="Voyage au japon 2004" date="2004-09-11" type="start">
+  <etappe name="Départ de Strasbourg" time="04:20" type="simple">
+  Levés
+  </etappe>
+
+  <etappe name="Départ du taxi pour Entzheim" time="06:00" type="simple">
+          Taxi
+  </etappe>
+
+  <etappe name="L'aéroport" time="6:20" type="simple">
+  Entzheim ne  veut pas nous enregistrer tout le voyage, alors qu'ils auraient pu
+  au moins nous réserver les places sur le vol Paris-Tokyo. Prochaine fois il
+  faut faire gaffe, Air France vend des billets pas très cohérents, c'est le
+  client qui est sensé connaître les problèmes lies aux aéroports et aux
+  localités ou il va et non le boulot d'Air France que de vendre des billets
+  faisables. Le transit entre aéroports est potentiellement dangereux et donc a
+  éviter....
+  </etappe>
+
+  <etappe name="Départ du vol" time="08:45" type="simple">
+
+  On s'envole enfin avec beaucoup de retard, on n'a pas pu faire différemment que
+  de communiquer notre appréhension de la suite de notre voyage au personnel d'air
+  France.
+
+  </etappe>
+
+  <etappe name="Arrivée a Paris" time="09:30" type="simple">
+
+  bonne surprise Air France nous y attend et nous met
+  (gracieusement) dans un taxi direction Charles de Gaulle, des réception de nos
+  bagages.
+
+  </etappe>
+
+  <etappe name="L'enregistrement en catastrophe" time="10:30" type="simple">
+
+  La préposée a l'enregistrement est pas super heureuse du fait que l'on vienne
+  s'enregistrer en dernière seconde et nous dit que nous aurions du réserver a
+  partir de  Strasbourg au moins, ce qu'on avait essaye.....
+
+  </etappe>
+
+
+  <etappe name="Envol!" time="11:50" type="simple">
+
+  Depuis 10 ans les avions se sont nettement améliores, il
+  y a plus de place, les sièges ont des oreillettes qui rendent les coussins a
+  forme de cou inutiles, les sièges ont chacun un petit écran pour regarder les
+  films qu'on veut. Par contre ça reste serre et je n'ai pas pu fermer l'oeuil de
+  la nuit, ce n'est toujours pas adapte aux personnes de grande taille.....
+  (enfin grande taille, je ne mesure qu'1m85....)
+  </etappe>
+
+  <etappe name="Arrivée at Tokyo" date="2004-09-12" type="simple">
+
+
+  Vu qu'on est dimanche et qu'on arrive pour l'ouverture de l'aéroport, on
+  nous fait atterrir a perpette pour laisser quelques secondes de sommeil de
+  plus aux habitants du coin.
+
+    <etappe name="Débarquement" time="06:40" type="simple"/>
+
+    <etappe name="" time="07:30" type="simple">
+
+    On a nos passes JR ainsi que des billets pour aller sur Tokyo
+    en train
+    </etappe>
+
+    <etappe name="Transfert à la gare de Tokyo" time="07:43" type="simple">07:43 - 09:05</etappe>
+
+    <etappe name="Arrivée au Homeikan" time="11:00" type="accomodation"
+    uri="http://www1.odn.ne.jp/homeikan">
+
+    qui nous font notre checkin tout de suite alors que normalement ils ne le font
+    pas avant 15:00! Très gentils nous transfèrent de la succursale ou on a échoue
+    (on s'est perdu pas mal de fois....) jusque la ou on devait aller en voiture!
+    .
+
+    donc
+      <etappe name="douche" type="simple"/>
+      <etappe name="Bol de riz au poulet a 320yen dans une guinguette du coin"/>
+      <etappe name="Gare de Ueno"/>
+      <etappe name="Marche des contrebandiers près de la gare d'Ueno"/>
+      <etappe name=" repos!"/>
+      <etappe name=" Le parc Ueno avec ses trucs a visiter (statue, Pavillons, temples)"/>
+      <etappe name="sieste!"/>
+      <etappe name="Transfert vers senso-ji">
+      (on commence a comprendre comment fonctionnent les métros...), petit marche
+      sympa a cote du temple, visite du temple (très joli)"</etappe>
+      <etappe name="retour ryokan, donc douche"/>
+      <etappe name="rendez vous a Shinjuku avec Paul">
+      on est allés manger une pizza, et on a
+      rencontre par hasard le reste de la bande d'aikidokas après le
+      repas.</etappe>
+      <etappe name=" 10:20 couches!!"/>
+    </etappe></etappe><etappe name="encore Tokyo" date="2004-09-13" type="simple">
+
+  <etappe time="06:30" name="réveil en fanfare">
+  (risque la crise cardiaque...) par une cloche
+  d'alarme.... on se recouche
+  </etappe>
+  <etappe time="09:00" name="levés!">
+  et attente devant la salle de bain (eh oui, les inconvénients des
+      salles de bains communes!) the et gâteaux (japonais) servis dans la chambre par
+  bibi!
+  </etappe>
+  <etappe time="10:00" name="visite de Ginza"/>
+  <etappe time="11:00" name="(tapantes comme pour tout au Japon!!) visite
+  de Sony"/>
+  <etappe time="12:00" name="visite de Shinjuku de jour.">
+  Visite au bureau
+  de change sortie B12
+  ainsi qu'au terminal de cartes banquaires æn face (prend toutes les cartes
+      connues et inconnues!)
+  </etappe>
+  <etappe name="Visite mairie de Tokyo (twin towers, ou totoo)">
+  avec l'office de
+  tourisme (point internet gratuit_) ainsi que très belle vue du 45 ème étage
+  </etappe>
+  <etappe name="Yoyogi parc">
+  grand parc, avec une jolie partie (payante 500yen) d'un
+  jardin a la japonaise et qui ne laisse pas supposer une grande ville autour.
+  </etappe>
+  <etappe name="Ikebukuro">
+  directement allés dans la sunshine road, visiter sunshine
+  city et plus précisément tokyu hands, un magasin de gadgets, y a dépensé plein
+  d'argent et on s'est bien amuses!
+  </etappe>
+  <etappe name="Toyota">
+  en face il y a Toyota, mais ils sont fermes les lundis....
+  </etappe>
+  <etappe name="mangé dans un self de Shinjuku station"/>
+  <etappe name="Tokyo dôme">
+  on s'est plantes en revenant et on a termine a Tokyo dôme, quartier
+  marrant, joli avec un parc d'attractions intègre, après une glace et une marche
+  forcée on a retrouve le chemin vers Honcho et donc notre hôtel.
+  </etappe>
+  <etappe time="22:00" name="de retour au ryokan"/></etappe></etappe><etappe name="visite de Kamakura et the archery festival" date="2004-08-14" type="simple">
+
+  <etappe name="Lever" time="08:00"> thé vert </etappe><etappe name="JR Yokosuka Line" time="09:24" from="TOKYO  Platform 1"
+  duration="55 min" to="KAMAKURA" arrival="10:19" type="transport"/>
+
+  <etappe name="" time="">21:58 KAMAKURA  JR Yokosuka Line  TOKYO(22:52) 4  54min
+  </etappe>
+
+  <etappe name="" time=""> location vélo directement a cote de la gare (1500 yen/jour et personne)
+  </etappe></etappe></travel></travels></travelhelper>
